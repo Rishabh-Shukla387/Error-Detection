@@ -1,0 +1,38 @@
+Error Detection Visualizer — Feature List
+
+1. Encoding Features
+   - ASCII to Binary Conversion
+   - Even Parity Generation
+   - 16-bit Checksum Generation
+   - CRC (Polynomial Division) Encoding
+
+2. Transmission Frame Features
+   - Visual Bitstream Representation
+   - Highlighted Payload and Redundancy Bits
+   - Frame Structuring for Parity, Checksum, CRC
+
+3. Error Simulation Features
+   - Random Bit Flip
+   - Character-Level Bit Corruption
+   - Manual Bit Toggle
+   - Same-Weight Checksum-Safe Bit Flips
+   - Auto-Generated Undetected Checksum Errors
+
+4. Receiver Module Features
+   - Parity Verification
+   - Checksum Recalculation
+   - CRC Remainder Validation
+   - Error/No-Error Detection Feedback
+   - Decoded Output Display
+
+5. Interface Features
+   - Sender View (ASCII, Binary, Redundancy)
+   - Transmission View (Bitstream + Flip Markers)
+   - Receiver View (Computed Values + Status)
+   - Teacher Mode (Diagnostics + Frame Editing)
+
+6. Deployment Features
+   - Runs Fully on HTML + JavaScript
+   - Static Site Hosting (Netlify)
+   - Offline Support After First Load
+   - No Backend Required
